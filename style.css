@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
+    color: white;
+    font-size: 80px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    padding-bottom: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-color: white;
+    border-bottom: 7px solid;
+    margin: 20px;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation-button {
+    color: white;
+    font-size: 40px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 20px;
+    border-style: none;
+    background-color: transparent;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.text-box {
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+}
