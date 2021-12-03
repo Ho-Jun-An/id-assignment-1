@@ -59,7 +59,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Media
 The photos used in this site were obtained from:
-- Main Page Image: 
+- Main Page Image: https://videohive.net/item/computer-code-programming-screen/23984350
 Skill Icons/ Logos:
 - Python: https://www.python.org/
 - HTML5, CSS3 and JS: https://github.com/FortAwesome/Font-Awesome/issues/11419

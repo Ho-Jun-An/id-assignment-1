@@ -48,9 +48,15 @@ body {
     color: rgb(32, 32, 32);
     font-size: 20px;
     font-family: "Segoe UI", Arial, sans-serif;
+    margin: 20px;
 }
 
-#skills-container {
+#main-image {
+    margin: 20px;
+    width: 50%;
+}
+
+#info-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,11 +79,18 @@ body {
     margin-right: 200px;
 }
 
-.skills-list {
+.info-list {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 80%;
+}
+
+.info-text {
+    color: rgb(204, 204, 204);
+    font-size: 20px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: bold;
 }
 
 .skill-icon {
@@ -85,13 +98,13 @@ body {
     margin: 10px;
 }
 
-#gallery-container {
+#info-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.gallery-image {
+.info-image {
     background-color: white;
     border-color: rgb(31, 31, 31);
     border-style: solid;
@@ -116,6 +129,8 @@ body {
     border-color: rgb(121, 121, 121);
     border-width: 3px;
     margin: 5px;
+    position: relative;
+    left: 30px;
 }
 
 #submit-button {
@@ -130,4 +145,6 @@ body {
     border-width: 3px;
     border-radius: 15%;
     margin: 5px;
+    position: relative;
+    left: 40px;
 }
